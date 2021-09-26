@@ -3,7 +3,7 @@ img{
     width: 150px;
     object-fit: cover !important;
     border-radius: 50% !important;
-    border: 1px solid #2379fa;
+    border: 1px solid #6c757d;
     /* text-align: center !important; */
 }
 .actorInfo{
@@ -18,6 +18,7 @@ img{
 }
 .social-link a{
     font-size: 30px;
+    color: #6c757d !important;
 }
 /* .actor-card{
     background-color: rgba(255, 255, 255, 0.068);

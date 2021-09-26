@@ -11,7 +11,7 @@ const Actors = (props) => {
     const fbIcon = <FontAwesomeIcon icon={faFacebookSquare} />
     const twIcon = <FontAwesomeIcon icon={faTwitterSquare} />
     const insIcon = <FontAwesomeIcon icon={faInstagramSquare} />
-    const { name, img, nationaliy, profession, roleName, role, salary, dateOfBirth, fbLink, twLink, instLink
+    const { name, age, img, nationaliy, profession, roleName, role, salary, dateOfBirth, fbLink, twLink, instLink
     } = props.actor;
 
     return (
@@ -22,15 +22,16 @@ const Actors = (props) => {
                 </div>
                 <div className="d-flex flex-column card-body">
                     <h4 className="card-title">{name}</h4>
-                    <p>{role} | {dateOfBirth}</p>
+                    <p>{role} | Born {dateOfBirth}</p>
                     <div className="actorInfo mb-2">
+                        <p className="card-text"><span className="infoTitle">Age</span> : {age}</p>
                         <p className="card-text"><span className="infoTitle">Role Name</span> : {roleName}</p>
                         <p className="card-text"><span className="infoTitle">Profession</span> : {profession}</p>
                         <p className="card-text"><span className="infoTitle">Nationality</span> : {nationaliy}</p>
                         <p className="card-text"><span className="infoTitle">Casting Cost</span> : ${salary}</p>
                     </div>
                     <div className="mt-auto ">
-                        <button onClick={() => props.handleAddedActors(props.actor)} className="btn w-75 btn-primary">{cartIcon} select actor</button>
+                        <button onClick={() => props.handleAddedActors(props.actor)} className="btn w-75 btn-secondary">{cartIcon} select actor</button>
                     </div>
                     <hr />
                     <div className="d-flex justify-content-around social-link">

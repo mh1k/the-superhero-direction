@@ -25,7 +25,7 @@ const Cart = (props) => {
                 }
             </div>
             
-            <button className="btn btn-primary w-50 mb-3">Confirm Now</button>
+            <button className="btn btn-secondary w-50 mb-3">Confirm Now</button>
 
         </div>
     );
