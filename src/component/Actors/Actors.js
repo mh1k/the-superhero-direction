@@ -6,7 +6,7 @@ import './Actors.css';
 
 
 const Actors = (props) => {
-    console.log(props.actor);
+    // console.log(props.actor);
     const cartIcon = <FontAwesomeIcon icon={faUserPlus} />
     const fbIcon = <FontAwesomeIcon icon={faFacebookSquare} />
     const twIcon = <FontAwesomeIcon icon={faTwitterSquare} />

@@ -8,7 +8,7 @@ const Cart = (props) => {
     const userIcon = <FontAwesomeIcon icon={faUsers} />
 
     const { cart } = props
-    console.log(props);
+    // console.log(props);
     let castingPrice = 0;
     for (const actor of cart) {
         castingPrice = castingPrice + actor.salary
