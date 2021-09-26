@@ -1,0 +1,20 @@
+.header-container{
+    margin-bottom: 50px;
+    background: url("https://image.shutterstock.com/image-photo/close-detail-on-one-led-260nw-1494550523.jpg") no-repeat;
+    background-size: cover;
+    
+}
+.header-content{
+     height: 120px;
+  
+     /* background-color: rgb(80, 79, 79); */
+
+}
+.header-title, .header-slogan{
+    color: rgb(255, 255, 255);
+}
+.movie-budget{
+    background-color: rgba(43, 43, 43, 0.884);
+    color: white;
+    
+}
